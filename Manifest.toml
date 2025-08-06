@@ -2,7 +2,7 @@
 
 julia_version = "1.10.3"
 manifest_format = "2.0"
-project_hash = "65513b8b647b9b2aca0f8bb899f3bff6cf2001f1"
+project_hash = "11b1dbd869a01191d4bf2df20fd9725636fad03b"
 
 [[deps.AbstractFFTs]]
 deps = ["LinearAlgebra"]
@@ -357,12 +357,6 @@ git-tree-sha1 = "6cbbd4d241d7e6579ab354737f4dd95ca43946e1"
 uuid = "f0e56b4a-5159-44fe-b623-3e5288b988bb"
 version = "2.4.1"
 
-[[deps.Configurations]]
-deps = ["ExproniconLite", "OrderedCollections", "TOML"]
-git-tree-sha1 = "4358750bb58a3caefd5f37a4a0c5bfdbbf075252"
-uuid = "5218b696-f38b-4ac9-8b61-a12ec717816d"
-version = "0.17.6"
-
 [[deps.ConstructionBase]]
 deps = ["LinearAlgebra"]
 git-tree-sha1 = "260fd2400ed2dab602a7c15cf10c1933c59930a2"
@@ -534,16 +528,6 @@ git-tree-sha1 = "1c6317308b9dc757616f0b5cb379db10494443a7"
 uuid = "2e619515-83b5-522b-bb60-26c02a35a201"
 version = "2.6.2+0"
 
-[[deps.ExpressionExplorer]]
-git-tree-sha1 = "0da78bef32ca71276337442389a3d1962a1ee0da"
-uuid = "21656369-7473-754a-2065-74616d696c43"
-version = "1.0.2"
-
-[[deps.ExproniconLite]]
-git-tree-sha1 = "6091a6fc0f16639f43d7f78fee225ba365712612"
-uuid = "55351af7-c7e9-48d6-89ff-24e801d99491"
-version = "0.10.8"
-
 [[deps.ExtendableSparse]]
 deps = ["DocStringExtensions", "ILUZero", "LinearAlgebra", "Printf", "Requires", "SparseArrays", "Sparspak", "StaticArrays", "SuiteSparse", "Test"]
 git-tree-sha1 = "05585b2f21ed4c51878247cb5ce0beb87a71b631"
@@ -702,12 +686,6 @@ version = "0.4.10"
 [[deps.Future]]
 deps = ["Random"]
 uuid = "9fa8497b-333b-5362-9e8d-4d0656e87820"
-
-[[deps.FuzzyCompletions]]
-deps = ["REPL"]
-git-tree-sha1 = "40ec72c57559a4473961bbcd12c96bcd4c2aaab4"
-uuid = "fb4132e2-a121-4a70-b8a1-d5b831dcdcc2"
-version = "0.5.4"
 
 [[deps.GLFW_jll]]
 deps = ["Artifacts", "JLLWrappers", "Libdl", "Libglvnd_jll", "Xorg_libXcursor_jll", "Xorg_libXi_jll", "Xorg_libXinerama_jll", "Xorg_libXrandr_jll"]
@@ -886,12 +864,6 @@ deps = ["DualNumbers", "LinearAlgebra", "OpenLibm_jll", "SpecialFunctions"]
 git-tree-sha1 = "f218fe3736ddf977e0e772bc9a586b2383da2685"
 uuid = "34004b35-14d8-5ef3-9330-4cdb6864b03a"
 version = "0.3.23"
-
-[[deps.HypertextLiteral]]
-deps = ["Tricks"]
-git-tree-sha1 = "7134810b1afce04bbc1045ca1985fbe81ce17653"
-uuid = "ac1192a8-f4b3-4bfe-ba22-af5b92cd3ab2"
-version = "0.9.5"
 
 [[deps.ILUZero]]
 deps = ["LinearAlgebra", "SparseArrays"]
@@ -1286,11 +1258,6 @@ git-tree-sha1 = "62edfee3211981241b57ff1cedf4d74d79519277"
 uuid = "10f19ff3-798f-405d-979b-55457f8fc047"
 version = "0.1.15"
 
-[[deps.LazilyInitializedFields]]
-git-tree-sha1 = "8f7f3cabab0fd1800699663533b6d5cb3fc0e612"
-uuid = "0e77f7df-68c5-4e49-93ce-4cd80f5598bf"
-version = "1.2.2"
-
 [[deps.LazyArtifacts]]
 deps = ["Artifacts", "Pkg"]
 uuid = "4af54fe1-eca0-43a8-85a7-787d91b784e3"
@@ -1427,11 +1394,6 @@ git-tree-sha1 = "1d2dd9b186742b0f317f2530ddcbf00eebb18e96"
 uuid = "23992714-dd62-5051-b70f-ba57cb901cac"
 version = "0.10.7"
 
-[[deps.MIMEs]]
-git-tree-sha1 = "65f28ad4b594aebe22157d6fac869786a255b7eb"
-uuid = "6c6e2e6c-3030-632d-7369-2d6c69616d65"
-version = "0.1.4"
-
 [[deps.MKL_jll]]
 deps = ["Artifacts", "IntelOpenMP_jll", "JLLWrappers", "LazyArtifacts", "Libdl", "oneTBB_jll"]
 git-tree-sha1 = "80b2833b56d466b3858d565adcd16a4a05f2089b"
@@ -1478,12 +1440,6 @@ deps = ["Markdown", "Random"]
 git-tree-sha1 = "2fa9ee3e63fd3a4f7a9a4f4744a52f4856de82df"
 uuid = "1914dd2f-81c6-5fcd-8719-6d5c9610ff09"
 version = "0.5.13"
-
-[[deps.Malt]]
-deps = ["Distributed", "Logging", "RelocatableFolders", "Serialization", "Sockets"]
-git-tree-sha1 = "18cf4151e390fce29ca846b92b06baf9bc6e002e"
-uuid = "36869731-bdee-424d-aa32-cab38c994e3b"
-version = "1.1.1"
 
 [[deps.ManualMemory]]
 git-tree-sha1 = "bcaef4fc7a0cfe2cba636d84cda54b5e4e4ca3cd"
@@ -1557,12 +1513,6 @@ version = "0.3.4"
 [[deps.MozillaCACerts_jll]]
 uuid = "14a3606d-f60d-562e-9121-12d972cd8159"
 version = "2023.1.10"
-
-[[deps.MsgPack]]
-deps = ["Serialization"]
-git-tree-sha1 = "f5db02ae992c260e4826fe78c942954b48e1d9c2"
-uuid = "99f44e22-a591-53d1-9472-aa23ef4bd671"
-version = "1.2.1"
 
 [[deps.MutableArithmetics]]
 deps = ["LinearAlgebra", "SparseArrays", "Test"]
@@ -1825,18 +1775,6 @@ version = "1.40.4"
     ImageInTerminal = "d8c32880-2388-543b-8c61-d9f865259254"
     Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
-[[deps.Pluto]]
-deps = ["Base64", "Configurations", "Dates", "Downloads", "ExpressionExplorer", "FileWatching", "FuzzyCompletions", "HTTP", "HypertextLiteral", "InteractiveUtils", "Logging", "LoggingExtras", "MIMEs", "Malt", "Markdown", "MsgPack", "Pkg", "PlutoDependencyExplorer", "PrecompileSignatures", "PrecompileTools", "REPL", "RegistryInstances", "RelocatableFolders", "Scratch", "Sockets", "TOML", "Tables", "URIs", "UUIDs"]
-git-tree-sha1 = "7074b3a8339fadaf8524a9252ae7565b85f648f1"
-uuid = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
-version = "0.19.42"
-
-[[deps.PlutoDependencyExplorer]]
-deps = ["ExpressionExplorer", "InteractiveUtils", "Markdown"]
-git-tree-sha1 = "4bc5284f77d731196d3e97f23abb732ad6f2a6e4"
-uuid = "72656b73-756c-7461-726b-72656b6b696b"
-version = "1.0.4"
-
 [[deps.PolyesterWeave]]
 deps = ["BitTwiddlingConvenienceFunctions", "CPUSummary", "IfElse", "Static", "ThreadingUtilities"]
 git-tree-sha1 = "240d7170f5ffdb285f9427b92333c3463bf65bf6"
@@ -1870,11 +1808,6 @@ deps = ["DataAPI", "Future"]
 git-tree-sha1 = "36d8b4b899628fb92c2749eb488d884a926614d3"
 uuid = "2dfb63ee-cc39-5dd5-95bd-886bf059d720"
 version = "1.4.3"
-
-[[deps.PrecompileSignatures]]
-git-tree-sha1 = "18ef344185f25ee9d51d80e179f8dad33dc48eb1"
-uuid = "91cefc8d-f054-46dc-8f8c-26e11d7c5411"
-version = "3.0.3"
 
 [[deps.PrecompileTools]]
 deps = ["Preferences"]
@@ -2015,12 +1948,6 @@ deps = ["IterTools", "LinearAlgebra", "StaticArrays"]
 git-tree-sha1 = "4618ed0da7a251c7f92e869ae1a19c74a7d2a7f9"
 uuid = "dee08c22-ab7f-5625-9660-a9af2021b33f"
 version = "0.3.2"
-
-[[deps.RegistryInstances]]
-deps = ["LazilyInitializedFields", "Pkg", "TOML", "Tar"]
-git-tree-sha1 = "ffd19052caf598b8653b99404058fce14828be51"
-uuid = "2792f1a3-b283-48e8-9a74-f99dce5104f3"
-version = "0.1.0"
 
 [[deps.RelocatableFolders]]
 deps = ["SHA", "Scratch"]
@@ -2398,11 +2325,6 @@ version = "0.4.80"
     LazyArrays = "5078a376-72f3-5289-bfd5-ec5146d43c02"
     OnlineStatsBase = "925886fa-5bf2-5e8e-b522-a9147a512338"
     Referenceables = "42d2dcc6-99eb-4e98-b66c-637b7d73030e"
-
-[[deps.Tricks]]
-git-tree-sha1 = "eae1bb484cd63b36999ee58be2de6c178105112f"
-uuid = "410a4b4d-49e4-4fbc-ab6d-cb71b17b3775"
-version = "0.1.8"
 
 [[deps.URIs]]
 git-tree-sha1 = "67db6cc7b3821e19ebe75791a9dd19c9b1188f2b"
